@@ -1,0 +1,50 @@
+[
+  {
+    "containerType": "text",
+    "code": "option:isset",
+    "message": "Das Attribut \"option:isset\" hat bei Text-Containern keinen Effekt.",
+    "severity": "Warning"
+  },
+  {
+    "containerType": "text",
+    "code": "width",
+    "message": "Das Attribut 'width' hat bei Text-Containern keinen Effekt.",
+    "severity": "Warning"
+  },
+  {
+    "containerType": "text",
+    "code": "height",
+    "message": "Das Attribut 'height' hat bei Text-Containern keinen Effekt.",
+    "severity": "Warning"
+  },
+  {
+    "containerType": "enum",
+    "code": "charlength",
+    "message": "Das Attribut \"charlength\" hat bei Dropdown-Containern keinen Effekt.",
+    "severity": "Warning"
+  },
+  {
+    "containerType": "enum",
+    "code": "width",
+    "message": "Das Attribut 'width' hat bei Dropdown-Containern keinen Effekt.",
+    "severity": "Warning"
+  },
+  {
+    "containerType": "enum",
+    "code": "height",
+    "message": "Das Attribut 'height' hat bei Dropdown-Containern keinen Effekt.",
+    "severity": "Warning"
+  },
+  {
+    "containerType": "bild",
+    "code": "option:isset",
+    "message": "Das Attribut 'option:isset' hat bei Bild-Containern keinen Effekt.",
+    "severity": "Warning"
+  },
+  {
+    "containerType": "bild",
+    "code": "charlength",
+    "message": "Das Attribut 'charlength' hat bei Bild-Containern keinen Effekt.",
+    "severity": "Warning"
+  }
+]

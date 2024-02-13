@@ -1,0 +1,56 @@
+{
+  "name": "cms-template-extension",
+  "private": true,
+  "displayName": "Klickmeister CMS-Backend Templates",
+  "version": "0.1.0",
+  "description": "Diagnostic and Snippet Support for Klickmeister CMS-Backend Templates",
+  "icon": "./assets/icon.png",
+  "publisher": "klickmeister",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Klickmeister/cms-template-extension"
+  },
+  "bugs": {
+    "url": "https://github.com/Klickmeister/cms-template-extension/issues"
+  },
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Linters",
+    "Snippets",
+    "Other"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "php",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets.json"
+      }
+    ]
+  },
+  "activationEvents": [
+    "onLanguage:php",
+    "onLanguage:html"
+  ],
+  "main": "./out/extension.js",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src --ext ts --fix"
+  },
+  "devDependencies": {
+    "@types/node": "^18.x",
+    "@types/vscode": "^1.86.0",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  }
+}

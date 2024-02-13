@@ -1,0 +1,64 @@
+{
+  "CMS-Template Boilerplate": {
+    "scope": "php, html, htm",
+    "prefix": "cmstemplate",
+    "body": [
+      "<!--KORD bo pflegen -->",
+      "",
+      "HTML des Pflegebereichs",
+      "",
+      "<!--KORD eo pflegen -->",
+      "",
+      "<!--KORD bo ausspielen -->",
+      "",
+      "HTML und PHP des Ausspielungsbereich",
+      "",
+      "<!--KORD eo ausspielen -->"
+    ],
+    "description": "CMS-Template Boilerplate"
+  },
+
+  "Text-Container": {
+    "scope": "php, html, htm",
+    "prefix": "cmstext",
+    "body": [
+      "<label class=\"label\"> ${1:TITEL_DES_TEXTFELDS} </label>",
+      "[container]",
+      "typ:text;",
+      "nummer:${2:EINDEUTIGE_NR_DES_EINGABECONTAINERS};",
+      "tag:${3:p|h1-h6};",
+      "[EOcontainer]"
+    ],
+    "description": "Text-Container"
+  },
+
+  "Bild-Container": {
+    "scope": "php, html",
+    "prefix": "cmsbild",
+    "body": [
+      "<label class=\"label\"> ${1:TITEL_DES_BILDS} </label>",
+      "[container]",
+      "typ:bild;",
+      "nummer:${2:EINDEUTIGE_NR_DES_EINGABECONTAINERS};",
+      "width:${3:PX-BREITE};",
+      "height:${4:PX-HÖHE};",
+      "[EOcontainer]"
+    ],
+    "description": "Bild-Container"
+  },
+
+  "ENUM-Container": {
+    "scope": "php, html",
+    "prefix": "cmsenum",
+    "body": [
+      "<label class=\"label\"> ${1:TITEL_DES_DROPDOWN} </label>",
+      "[container]",
+      "typ:text;",
+      "nummer:${2:EINDEUTIGE_NR_DES_EINGABECONTAINERS};",
+      "tag:p;",
+      "enum:[{\"value\":\"\",\"label\":\"Standard(${3:BESCHREIBUNG})\"},{\"value\":\"${4:WERT}\",\"label\":\"${5:BESCHREIBUNG}\"},<...>];",
+      "[EOcontainer]"
+    ],
+    "description": "Dropdown-Container"
+  }
+}
