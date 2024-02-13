@@ -1,8 +1,8 @@
-# Klickmeister - CMS-Backend Templates
+# VS Code CMS-Backend Template Extension
 
 ## Description
 
-This extension provides language diagnostics and snippets for the Klickmeister CMS-Backend Templates.
+This extension provides language diagnostics and snippets in Visual Studio Code for CMS-Backend Templates.
 
 ## Features
 
@@ -14,14 +14,14 @@ This extension provides language diagnostics and snippets for the Klickmeister C
 ### Deprecation Warnings
 
 This extension provides deprecation warnings for outdated syntax in the Klickmeister CMS-Backend Templates. It helps developers identify and update their code to use the latest syntax.
-Diagnostics are available inside of `.php` and `.html` files. The diagnostics will provide warnings for outdated syntax in the Klickmeister CMS-Backend Templates.
+Diagnostics are available inside of PHP/HMTL files. The diagnostics will provide warnings for outdated syntax in the Klickmeister CMS-Backend Templates.
 
 ![Template Diagnostics](assets/usage-diagnostics.png)
 
 ## Snippets
 
 This extension includes snippets for common template structures in the Klickmeister CMS-Backend Templates.
-Snippets are available inside of `.php` and `.html` files. The snippets can be used to quickly generate code for frequently used patterns in the Klickmeister CMS-Backend Templates.
+Snippets are available inside of PHP/HTML files. The snippets can be used to quickly generate code for frequently used patterns in the Klickmeister CMS-Backend Templates.
 
 ![Template Snippets](assets/usage-snippets.gif)
 
