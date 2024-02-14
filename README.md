@@ -27,10 +27,13 @@ Snippets are available inside of PHP/HTML files. The snippets can be used to qui
 
 List of available snippets:
 
-- `cmstemplate`: Generates a basic template structure
-- `cmstext`: Generates a text field
-- `cmsbild`: Generates an image field
-- `cmsenum`: Generates an dropdown field
+| Snippet       | Description                          |
+| ------------- | ------------------------------------ |
+| `cmstemplate` | Generates a basic template structure |
+| `cmstext`     | Text-Container                       |
+| `cmsbild`     | Image-Container                      |
+| `cmsenum`     | Dropdown-Container                   |
+| `cmsinclude`  | Template file import                 |
 
 ## License
 

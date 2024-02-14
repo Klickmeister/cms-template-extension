@@ -60,5 +60,12 @@
       "[EOcontainer]"
     ],
     "description": "Dropdown-Container"
+  },
+
+  "Template Import": {
+    "scope": "php, html",
+    "prefix": "cmsinclude",
+    "body": ["{include=${1:DATEINAME}}"],
+    "description": "Template Import"
   }
 }
