@@ -2,7 +2,7 @@
   "name": "cms-template-extension",
   "private": true,
   "displayName": "Klickmeister CMS-Backend Templates",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Diagnostic and Snippet Support for Klickmeister CMS-Backend Templates",
   "icon": "./assets/icon.png",
   "publisher": "klickmeister",
